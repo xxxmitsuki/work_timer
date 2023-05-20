@@ -1,0 +1,18 @@
+{
+    "name": "何に何時間くん",
+    "description": "ラベルごとに時間を計測できます。1つのタイマーがカウントアップする間、他のタイマーは停止しているので、マルチタスクのそれぞれに何時間使ったのかを簡単に把握することが出来ます。",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "index.html"
+    },
+    "content_scripts": [
+        {
+        "js": [
+            "scripts/content.js"
+        ],
+        "css": [],
+        "matches": ["<all_urls>"]
+        }
+    ]
+}

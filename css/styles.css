@@ -1,0 +1,42 @@
+.timer-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .timer-label {
+    margin-right: 10px;
+  }
+  
+  .timer-value {
+    margin-right: 10px;
+  }
+  
+  .total-time-label {
+    margin-top: 10px;
+  }
+  
+  .reset-button {
+    margin-top: 10px;
+  }
+  
+  .timer-item input[type="text"],
+  .timer-item input[type="number"],
+  .timer-item input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .add-timer-button {
+    margin-top: 10px;
+  }
+  
+  .options-container {
+    margin-top: 20px;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
